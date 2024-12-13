@@ -50,4 +50,4 @@ With `python3.x` is meant version 3.8 or higher, where `x` should be replaced by
 
 ## Contact
 
-E-mail: `wheeringa fryske-akademy nl`.
+E-mail: `wheeringa [at] fryske-akademy [dot] nl`
