@@ -12,11 +12,12 @@ The command line script `graph2phon.R` requires the models `g2p.fst`, `g2p_stres
 
 The file `g2p.fst` contains a trained g2p model that was trained on the basis of the Frysk Hânwurdboek, the Foarkarswurdlist and a short supplementary list. It does not include primary stress marks. The file `g2p_stress.fst` contains a trained g2p model that was trained on the basis of the Frysk Hânwurdboek and a short supplementary list. It includes primary stress marks. The file `fy_frysk-ud-1.0-20240313.udpipe` contains a trained udpipe model.
 
-The file `Frysk.txt` is added as an example text. It can be processed by entering the following command in a terminal:
+The file `Frysk.txt` is added as an example text and can be processed by entering the following command in a terminal:
 
 `./graph2phon.R -i Frysk.txt -f -o Frysk.xlsx -x`<br>
 
-where the result is stored as an Excel spreadsheet in Frysk.xlsx, or read from pipe:
+where the result is stored as an Excel spreadsheet in Frysk.xlsx,
+or read from pipe:
 
 `cat Frysk.txt|./graph2phon.R -i - -e -t > Frysk.tsv`<br>
 
