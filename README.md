@@ -16,9 +16,7 @@ The file `Frysk.txt` is added as an example text. It can be processed by enterin
 
 `./graph2phon.R -i Frysk.txt -f -o Frysk.xlsx -x`<br>
 
-where the result is stored as an Excel spreadsheet in Frysk.xlsx
-
-or read from pipe:
+where the result is stored as an Excel spreadsheet in Frysk.xlsx, or read from pipe:
 
 `cat Frysk.txt|./graph2phon.R -i - -e -t > Frysk.tsv`<br>
 
