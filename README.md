@@ -37,7 +37,7 @@ Before running the app or the script for the first time, enter the following com
 
 `sudo pip3 install phonetisaurus`<br>
 `sudo pip3 install lingpy`<br>
-`ln -s /usr/bin/python3.8 /usr/bin/python3`<br><br>
+`ln -s /usr/bin/python3.8 /usr/bin/python3`<br>
 
 `sudo apt install r-base-core`<br>
 `sudo apt install libcurl4-openssl-dev`<br>
