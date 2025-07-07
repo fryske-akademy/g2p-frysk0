@@ -27,7 +27,7 @@ For information about usage and options enter:<br>
 
 `./graph2phon.R -h`
 
-##### Linux (Debian / Ubuntu) installs
+### Linux (Debian / Ubuntu) installs
 
 Before running the app or the script for the first time, enter the following commands in a terminal:<br>
 
