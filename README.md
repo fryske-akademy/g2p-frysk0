@@ -2,10 +2,6 @@
 
 With this software West Frisian text can be converted into phonetic IPA transcriptions. The software includes an R Shiny web application and a command line script.
 
-## Running the web app
-
-The web app includes the file `app.R` and the folder `www`. The folder `www` includes the models `g2p.fst`, `g2p_stress.fst` and `frisian_frysk-ud-1.00-240313.udpipe`. The app can be run locally in R or RStudio, or on a server with Shiny Server installed, see [Get your Shiny apps online](https://posit.co/products/open-source/shiny-server/). An online version of the app can be found [here](https://www.fa.knaw.nl/fa-apps/graph2phon/).
-
 ## Running the command line script
 
 The command line script `graph2phon.R` requires the models `g2p.fst`, `g2p_stress.fst` and `frisian_frysk-ud-1.00-240313.udpipe` as well. These models should reside in the same directory as where this script is stored.
