@@ -1,6 +1,6 @@
 # Grapheme to phoneme conversion of West Frisian text
 
-With this software West Frisian text can be converted into phonetic IPA transcriptions. The software includes an R Shiny web application and a command line script.
+With this software West Frisian text can be converted into phonetic IPA transcriptions.
 
 ## Running the command line script
 
